@@ -1,0 +1,18 @@
+Host 18.233.93.141
+    HostName 18.233.93.141
+    User ubuntu
+    IdentityFile ~/aws.pem
+    ServerAliveInterval 30
+    ServerAliveCountMax 240
+Host 34.228.26.196
+    HostName 34.228.26.196
+    User ubuntu
+    IdentityFile ~/aws.pem
+    ServerAliveInterval 30
+    ServerAliveCountMax 240
+Host 18.204.16.88
+    HostName 18.204.16.88
+    User ubuntu
+    IdentityFile ~/aws.pem
+    ServerAliveInterval 30
+    ServerAliveCountMax 240

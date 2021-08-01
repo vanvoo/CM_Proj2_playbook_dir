@@ -1,0 +1,14 @@
+---
+- hosts: wplamp
+  gather_facts: False
+
+  tasks:
+    - name: install python 2
+      become: true
+      raw: test -e /usr/bin/python || (apt -y update && apt install -y python-minimal)
+
+  roles:
+    - server
+    - php
+    - mysql
+    - wordpress
